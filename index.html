@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MS POST ROMAN ENGLISH SHAYARI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .header {
+      text-align: center;
+      padding: 40px 20px 10px;
+    }
+
+    .header h1 {
+      font-size: 30px;
+      font-weight: 700;
+      background: linear-gradient(90deg, #00f2fe, #4facfe);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 3s ease-in-out infinite alternate;
+    }
+
+    .datetime {
+      font-size: 14px;
+      color: #bbb;
+      margin-top: 8px;
+    }
+
+    .shayari-card {
+      width: 92%;
+      max-width: 700px;
+      margin: 20px auto;
+      border-radius: 14px;
+      overflow: hidden;
+      background: #1a1a1a;
+      box-shadow: 0 0 18px #00f2fe33;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .shayari-card:hover {
+      transform: scale(1.015);
+      box-shadow: 0 0 25px #00f2fe55;
+    }
+
+    .shayari-card img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      display: block;
+      cursor: pointer;
+    }
+
+    .views {
+      padding: 10px 16px;
+      font-size: 14px;
+      color: #ccc;
+      background-color: #121212;
+      border-top: 1px solid #333;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .views span::before {
+      content: '👁️';
+      margin-right: 6px;
+    }
+
+    .share-btn {
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .share-btn:hover {
+      background-color: #20b85b;
+    }
+
+    .footer {
+      text-align: center;
+      color: #888;
+      font-size: 13px;
+      padding: 30px 0 20px;
+    }
+
+    @keyframes glow {
+      0% { text-shadow: 0 0 8px #00f2fe88; }
+      100% { text-shadow: 0 0 18px #00f2fecc; }
+    }
+
+    /* Fullscreen modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 99;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.95);
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .modal img {
+      max-width: 90%;
+      max-height: 80vh;
+      border-radius: 12px;
+    }
+
+    .modal button {
+      margin-top: 20px;
+      background: #25D366;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+      .shayari-card img {
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>MS POST URDU SHAYARI</h1>
+    <div class="datetime" id="datetime">Loading...</div>
+  </div>
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfAOtltBWkjBid6F003JKnwFs7OdU6fUI-SaHFhRkiyEZ_4t6Xxio77EbbSG72BG81a6mZVV07Erza_EY0Wo9I1v4PYd69czhtX5Kkh0SJPHcOjOFQc8bAgC63gpriK4P99pM-_UmnWvI6pRYWSLaFFSybV77mO9qq71kxfeGo-lnkWjB_aPqgePVEpYoo/s1600/1000574394.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>5.2k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTEy3uFc8kZvAInKrkerwVJ6hKog7l3qZ9gSVBDSXWKHeKWPQUmQRsomvP2GMv16BJ5LVAAqJm0iPR1TptDqUIEbMNVPag_e-fZV5-H8ElG-13YY7P8fG2XjlN0jmwDypA37d92iiZTKzUyXxsPbI4pNBvcDjH-VtfUL9SZnQ7u6xgbuiOVMpgJBEr0_tQ/s1600/1000564105.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>9.3k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIWM4hiDbkbcaP0J8GT1TMZ_sZ4kq2idG6FhKRMyB7sTVPML6YbidF3pG94Z9y9JuVvzr-HXY_RFbc9-6y-Yt639o__juLgUfRYIAbn13dZmwH33K5OD0fGgH9k5ns89vtl9C4s5egefx_6MLYrKhXsV6J0rjdmaKMlp4ejlWsEsjgLCYp3Q3Fa_G5AxuV/s1600/1000563492.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>10.3k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5E5K0PPA9zsiYENBb5qpdjq4xj2CYrp-12runOAefrjirOme9Qjb1ZdndSPaYT4YXsLyhCHVw0jVeFaDibufhvLfiyrE8bf7LerOBdhWSg6t-vvqTFN5HpOI6UptY6jwE2ZBq5RpQ-5l9BgvVcJBJWFdKi3VcsdHVjfDgstVMTgYv6kXaFUOPQaR4xr3D/s1600/1000561775.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>6.1k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixax8zPTHid2OKNDPW6SMTKE4dVP1JfNCTTR5sBdga2VuHK6mkfz8lHFW-yDwCn5TpB82HAp-E6Hu1qo_ufXbdgDh-KpKtUmSqVb_8PGa0aZonogMXnV2uSPbVrjRM9-cYWmElxImub1wpr3Q54lYXOVpMBMMHfIqNZ76vDhjCm6z6JmlkWi8xX2lo0iUf/s1600/1000556844.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>8.4k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+  
+  <!-- Replace the URL below with your direct image link -->
+<div style="width: 100%; overflow: hidden; margin-top: 30px;">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiDnpAZYJdHbnM1-hwGj0AoO5ayqmvAC899dhZaWTQMTMVGm3VWjgjKHb_cqqPcEphTAY7GFtcm71va8mqImnifWx6hTBqUtTfZYlUZx8EsR45ARQ2qbr0mfsING2FnW30RwpIVXTvDy6HlorO-g96OHpcm1dhLpZGQ_vtRYCpwA_Inq9EFJaGw6POH4Mi/s1600/1000555803.jpg" alt="Ms Reshte Banner" style="width: 100%; height: auto; display: block;" />
+    </div>
+   </div>
+</div>
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIfxJ8HaL7JDRgPL_iNmfpW0RN9SltHbqfp0zE3evvoXX_5C5PnYBObhJ_Nyw8rYp2dVFVJ3NpOB06KJ7zy4bPejgsUMkPb0vYjLNuD_7qJ1eEhFpnKI5OKaAtQf_YceIQkVacQVThrB6nGAp78qfTSGtI-HOtyQbNt5Mh4xyMLRU6Zime3_kgJvjK2inp/s1600/1000552847.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>10k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikicxOEVlnqjCz6Ow4Q84EH-NDeSvSAIfm39FRKI0Bp7tYDujO6dvcP-XNqLgwbJ0UxuAUstPO3gO5GZjSEJiNbAexjPobvoBuAozMz8CO66sTB7VjTvE9BaJFNmnW2koJzG6x3JYz8rq8Hdska9Vd-t1MT_tnkHAJk5M75mfkzRB6MQ8W7rn9XLe0588/s1600/1000514669.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>1.1k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjh_31Mjv_wah-Yj0Ad8VEIUZquedagm0YGcBa35aCIIFSeQ96Kt5_XoGIbdFZLewbVWkGyKuE3C_-xpHxYJy9IFUTrAXXCcU3Q-T4t5Ez3I2qHpiT20Zc6WYitw4H5mcCxLqSNhRIXVAck50CatNNGMp0c25tDFxKfI4C2wCEBoBNGvWuafsqU2gQaN8w/s1600/1000514568.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>5.3k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgySs5Qpy_6VD1rdW5bIjpqvygyordSMtExkLawZudBFrQxwe4qrNnaZTHJAVRIrFYw-gSfc9EWgck8Vlc81Yv78ol95CupGCIqBEQXbcfS5yGJVcIDTLOxTepeH-eIxk61bxDlyR2bnJxEQhP6aOwDbABQ-EmokJCwIySnW7QjCQsaOwjCa-3IlGaZQ40/s1600/1000514556.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>1.3k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC1qR3404-bbV5-D0ln5zHDQbKdOGfLG9piWnsDo-Vgsn2l5g4TKuBygllKlp-CsZK8naDaKWCkwag_556_QD7bk7CLmQHEe2HIKCbUcot1WtkYnowZ9i3-mAjhAjjCmY-yc8lQcygLKGhfYYgr5B3cg7uPMyEJtBNRfgGDjCdTgfY13chWR0fSxLtBPg/s3264/1000501108.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>2.6k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhkv8ok9l5tZYG1nqX6I2DjTFc_Bx3vfCqwlgNodFOnVtLyhh8OEOIxQfKR2qqcuIZJdFXioLOQSWOQ8JSHaUG_KWJ9Q5f1PATY1dhQ3SFumlLteCKE-vJBHiGrxvIrIyQvGhoZpXndUtW6oQmuUDL-4hEHKPqJAeIbNpydpg3VT3rnLn6rBvD75q-yj8A/s1600/1000513884.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>1.3k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4DTk71gZzV0b5Si79r55u8bYNz5Iacs8qF-9lBT270lCH3ZS7qGQhl747nNP4LhoZr0NiQzQH-MeKHes8Lo80Ji3LSJeu6rFhTFbymF5XaHaCYZN_z2YBGX7aAtzhZrv-z-oZzDs2j4049ReKtDciFvXYGnivdBCO-Q05Ok_XTjVKruJh9Q4N3pcEXF4/s1600/1000499971.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>4.7k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+
+
+
+ <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcGxq581Kx0sBmfBBoFivxt-u__iaj7s-o7jLFuF4_N0j8bHordcXSNJtW6ib1SCKQL2eWleauYhBVlVHRxOlw31piiHfzmtnfeven47J5dNENDmS4XlOmoNVKYNwZwXwyO8Crhcenp9Ja3CMZiO-ENdweXJudT1WNAIVQtoTN7UP6lvLPoiF8EsPhhZg/s1600/1000492610.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>6.3k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+
+
+ <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWSg7QXWEsPHh95uz4noSjFYrDfsYh7std8-_0VaaKoNmKCgeVZnE80gg5EpeocLRT0-i6TkNgwzqkgRgtTWtCTt_nbSsmxLCpYrXJ3m0JkfM5dqf_Z-bCkVsDC42kvWQtWcHruJn_WKQCod2UeoeTEK2hhj5DwNCzeOjRymraxILbLxHZ1ls_4Tk2Jwo/s1600/1000492612.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>6.3k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('imge link')">Share</button>
+  </div>
+</div>
+
+
+
+  
+    <!-- Shayari card - Image only with 5k views -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLXpldIII24Yy0BaZF6sNYmqtZ2YSNpkaQMX5FS-21K6VZAQhO_GyGtDJdP_c6DBAS9YlzQLn9DorxRUga9GNos5h2Et3B0YoEuCFNJ2CfzviR0ZJTLAvMa0QsTDV_tbRKa9c3U3ocCygJ50X9X4YCcCi9WLCvpqZbs0q2eIoy67YLx0I6zKVtkz5IZ7U/s1600/1000490893.jpg" alt="Shayari Image" onclick="openModal(this.src)" style="cursor:pointer;">
+
+  <div class="views">
+    <span>5k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLXpldIII24Yy0BaZF6sNYmqtZ2YSNpkaQMX5FS-21K6VZAQhO_GyGtDJdP_c6DBAS9YlzQLn9DorxRUga9GNos5h2Et3B0YoEuCFNJ2CfzviR0ZJTLAvMa0QsTDV_tbRKa9c3U3ocCygJ50X9X4YCcCi9WLCvpqZbs0q2eIoy67YLx0I6zKVtkz5IZ7U/s1600/1000490893.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+  
+  <!-- Shayari card 3 - Image only -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgGdRO_UxOhuwLd4nqkjpBHGXgtyj-inGhGZvmYw2FMpfPbD_l_y8d306ikHmSqDACzcbj-8Vd-09IUYs3zaPki5TdGNGTxXNh6wOx0jQctAXtlIZkS81a14h1t1cexSZBVAnPJy-c-Lb3YG4_lCyn2M4nqd0jWz7Y0KuC9k0QhmSsVIfSpQDFKoyoNHY/s1600/1000490883.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+   <div class="views">
+    <span>2.5k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgGdRO_UxOhuwLd4nqkjpBHGXgtyj-inGhGZvmYw2FMpfPbD_l_y8d306ikHmSqDACzcbj-8Vd-09IUYs3zaPki5TdGNGTxXNh6wOx0jQctAXtlIZkS81a14h1t1cexSZBVAnPJy-c-Lb3YG4_lCyn2M4nqd0jWz7Y0KuC9k0QhmSsVIfSpQDFKoyoNHY/s1600/1000490883.jpg')">Share</button>
+  </div>
+</div>
+  
+  <!-- Shayari card - Image only with 12k views -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgICBormIIeSFbs45HFLqsO1Fmqnj_J1yXrGLiJ2a4jzXnitAfgU4MKZve-CQNgmiDgOjgFkyyQccv-v5PW3x-q2Mb_eHFWvL6eQvqFro2iRgeS_63mOeg4pOAw1eGTjqYpybbBpGpGjsr4z3J78n6EHbBmsk2Jc8TSLU56ZnU4CklkP3OJO6ZsthQpyCg/s1600/1000490896.jpg" alt="Shayari Image" onclick="openModal(this.src)" style="cursor:pointer;">
+
+  <div class="views">
+    <span>12k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgICBormIIeSFbs45HFLqsO1Fmqnj_J1yXrGLiJ2a4jzXnitAfgU4MKZve-CQNgmiDgOjgFkyyQccv-v5PW3x-q2Mb_eHFWvL6eQvqFro2iRgeS_63mOeg4pOAw1eGTjqYpybbBpGpGjsr4z3J78n6EHbBmsk2Jc8TSLU56ZnU4CklkP3OJO6ZsthQpyCg/s1600/1000490896.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+  
+   <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7et5AgqAv-5P-nvuyWbobA6fX4ou1jRfA3EWNFQwwFUQg42VPKk7T5MxCEqTAaPDyEaZNplxPy8J8vIMZAioTil5ezRM_VXfW6Af7WkrKgHQgRbYHowdL11AtDe5wmiCwSIkhIn1YwO4PVrQ0Zpt0H3L1TLaRw-bCBS-VBv0kRLoXtYFLwywoqLYwYw8/s1600/1000490031.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>2.8k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+  
+   <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRFu9zhQYMqeSrvUmpxrYtfk6VcOfMyesidDoi-Na0Jbi_70QOZefkk0Z9P3M69xi8LnLDhGO60wae0dVQ6SAIPf_d8b03cMOxdnWpFLQQIyLXi94FCTHxYVDNon7cHCg-Ntn4AjuHqkFOZo2-lzuOlMJlovqudr_YVJNONJqrUruTjS2F-qaNQqMY06I/s1600/1000484297.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>12k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+   <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsl2-pf4VtGgmYF1L1aANHLzQjvY8jzshcs4Lhaka1p7ecESbdAaEm134t_Wgq6PcS-XT1Ci76PqcqmvuUgpkOFqiiX5a6LBktu3nSm9FXUdINaDH-NSGnxGisLGUldZBw5Hs1DuLp8S3S9GjHsfOL-RdEB3GNpkBVEiADsiCnRTvbtUnhreZkq4IdKOg/s1600/1000484286.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>5.7k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+
+
+  
+   <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOXn9-LNYBrlJ8jI-Ckuef2DB85qQNBw4vKZq2_l0lR9GXWdqrZDdf74O_GJyNPZrbFOSlC4afz0gSEDTSsYC4feBKS5zIykZ6zGjLs4EgDnmQZynk-u9GbwoykbRd7TyqsPMkThdFOGRAaguKHvlU6rRhMNVpOJ1JeuQoDo7lbB9jmgtNj1zjiGeHzaQ/s1600/1000484265.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>4.2k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+  <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtuQk6yiiHPiMSN88I0JOSjVk-1o_6Dc933AJKgCTu6XocKGucIkY81WOyUIO5I6cCAzEbU7w20lN93tiY_08jE8gth1eDPfO_vKTYlhvq4VmtEq75bmB2BK7FzTX2C1i7IIrLtH0Qps1T3oC-Ql8MIkn63NfteWQbyi0LuJxZFLQ1E-Vex5utHtAKQKg/s1600/1000483338.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>9.2k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+  
+   <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEqWdpbYnhZ82Qs5nl_1lMaKJZeFs6MczncpWN69aL5BtxjW7nWmKwNSWWNtxxq7D58s9DXBa1HOyq8I1PuP_md-glJBVRRAqI8dpox86t9y28R093swIxqMuco3L046mVh7HoSRmiv-vwNiBRRPg1uaDW3tVzpwQloUMlhH-Czg52pDrN2rZeEK7WF9yM/s1600/1000480067.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>5.8k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+     <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY8PBmrlZPkhd78al6ZUwy6LGXwv9K24zMnCXv6JxnvewU3wcP8nw3iHDp_Ha-q5LhyxXYA__ZQdTXU3xRZZUuY5CwWvYvC5I5Ol6Kynt2H_ygkUSa1pNs7PktKC6bDr_bnCSzvCJp21o7UwtY7t43XhFpJOeBBvSLzmgrn5XmwW1TepycIyytLrhh5hpo/s1600/1000477940.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>1.3k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+  
+   <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxG7olfsAYUlZHGdxIOPdg43zrd_vrnraaTcWU8X488IAxHMU4s6jr7fUSBnsoPx9g0RN9bweINUdzNT35wyA1J7jzc6OfcO3zKFW3e5o_sdVWUS7uVN84y-2CX4vd5S6DPjnAvJkBPqjYiiKlXvmAw3RI3Qc5n6TMdZT9s_rRq3JawZg5kGacMRaoo9Q1/s1600/1000477933.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>500 Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+   <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuDuDaUY2X8P4Q_YuzkPX1l7pwUOWpLGso8EbAs848MUCHMltzknRCMMZSZD7szJ_f6koiOrwpILFUECcGsTHVe0EAbrY92ZhG8R389c3qMgqjQEE8j2CdGDvPPUWP656oN6vOzFMrQu6hMA6vXX86kWEt9ueQIc5P_CYLmp4XW2tt0IAwpYhVyl-1RWOl/s1600/1000467464.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>2.5k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+   <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMHf8RDNwwsOrh3isuHk2Jc0h17KzxCUSom51YVkLXx9QW5xXu51UxVox9TubZdnyTfvaMm5fKjedZt963CPYQpzSPh0nPMr_q34EO-vCYuCKCwGXAs7-zv-Ol88NpAGM-dK7JPqnlPV8MWi4Bjh0fPrFm0Oep06DnLLzxz87L58x6EEBDxPFDV5oOZeIX/s1600/1000467463.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>1.7k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+      <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGRVTjCgOpvGTreFlbVyfkJh8cJ4ik2ySwMQ9g1WzVweqrhVbjVnq6djHn-uTM7NL6TLOpxdd2Gdf79cwmwt7iE3tmKpk2s_jFZsgXRBmJ9qnPOy-qgEEX0FYZG3VpJJZJ4odAsHwawccgZNG71IrMDbc9XidCVD5lZ9VdSWSkQtZ5tidvvBmDtn_u9GUL/s1600/1000467459.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>2.5k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+  
+      <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGuhosk-3xH0tm2bLsAA9gJYPdjFlJPiQ0ivPIAmpEgJjBlmJOT8010-qXgo9ZmSpuiLe54Gij1iNI6EfuvLbXJTglYJcjbcHsNOqgNf9UaVvWYzB4WMOLd10QSQq68oG6godKvc-RJlDpgCdbuDoZl2XVTkzzuBkHTD1kTD1zU_abuldnJFMQFocpvEeX/s1600/1000456254.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>3.6k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+   <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbIVbUbW6jfRCDztM0GBPvA0izlaYsi8tSayJUdbIIN4SPxYUw6irwvXBWpcjbxBIVxiWbmm-EqrlKXFx1kfEnd2h11UeIwI9nrzoxY0Fp3AuuEjNbxeVBHpe77Id9yLdhB-dKXNvUGQlUc7Nhg1aUsjZuWZ1oYm7e4fiDWOPU-fYzVY0d6awwDpZB4X4O/s1600/1000456255.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>7.3k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+     <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdDLSYx9pIG-QveNpYY6cI-SdHfSPmedgrizCxfwUoh9LCddJNGO6RS49F-M701CNGW6B37yjI1jGAo4aHVnOgS7-mVcacXBDu0kvYBDh67Z2lOyLaiMgo5-u62x7HEjXAR3hJVG-gQBEqM7mCl7xo6mwE5cFDO3kwBjSlMkit9tupzlx7fbAtws9oSq6R/s1600/1000456252.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>4.8k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+    <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQEfhamWFfp65JhvFi7WDj8RmtARCrnVooDM2uOwR8GHg-8GZ9S5qBWBDD4EY31zb4zhAtk4JKOkaRY-W8xDtfNR9IuVsdAwcDjVFKIhXiTpZipwvLl-MfhEtXqm9SSNQROwI-PJKys0zEr8rbuTuETc4Kq8TcZjqtncx3HJubiW5UoKBw6BRngF5vrjT1/s1600/1000456250.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>6.8k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+  
+  
+  <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjh94I5JeD4eqtbxpAxMzddh5LrYe-4DzvhSO_hPgt-7kymv3jdyw3Ao2SEZjO0NWRl9lUPfajjx-l80sc5DjJOSZSPO_tSmH-9FRtxrOlSxOXOvCZLVFFIKY73A_X3-ww-MZNDwXXk8jAnry4rxMDC5ek3G3PqDKlTvRQ1oO9o7aLY2yFuTtK2IFeFnO64/s1600/1000453493.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>2.8k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+
+  
+  
+  
+  <!-- Replace the URL below with your direct image link -->
+<div style="width: 100%; overflow: hidden; margin-top: 30px;">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0CIKj1xs6zN33l3lhuZqoJPd9qfxwyVTBLEJ3x4AZ1hKJvdxnjfrZ3Y4sDFI_W4NqnOFSNcjUsfBvHxSlE22SIDQhMyWauOMV5m3_QBB-dnI33u0okPsrfz25KPnCi-2jQGwlyOwZx7jAWW3ykyLngrseywj13IFufH_fYHlGQWwiIRJdNFKKyEmpJzo/s1600/1000453291.png" alt="Ms Reshte Banner" style="width: 100%; height: auto; display: block;" />
+</div>
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGhyUZQiMZCFcge2xe9hpToj2iVUA5usQmrShrJdA3LlrVRk0qkwapTzYYJfq-1RyzcSi_F80iUTQl0CKf-uwTG-k2NqOWMyH21OQwIQOpcBepri7zTcF5oqzErLBy5JBgqvVBzuShjCXJLmftxwnK3iqj4bwj-njfNR-WvjqeykkoksIqVj5Dq-Jw4Bm-/s1600/1000401325.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>5000 Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGhyUZQiMZCFcge2xe9hpToj2iVUA5usQmrShrJdA3LlrVRk0qkwapTzYYJfq-1RyzcSi_F80iUTQl0CKf-uwTG-k2NqOWMyH21OQwIQOpcBepri7zTcF5oqzErLBy5JBgqvVBzuShjCXJLmftxwnK3iqj4bwj-njfNR-WvjqeykkoksIqVj5Dq-Jw4Bm-/s1600/1000401325.jpg')">Share</button>
+  </div>
+</div>
+
+
+
+  <!-- Shayari Card -->
+  <div class="shayari-card">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNYlaZKQi6MyTkXHG5PpRxdHYRRP-vTq_4s9T-Zj9hKIMzw_aeRQupuKqtsPxJHxayhgwOf8oLYhYDiDR-Y3GSW3Ae69PHEe9KYV3BulKMDiJQ87ohMcsRHkKkSo29XVf4Nu5f-xJp1VRUMx4fMmUPya_nTmxAYuKAR9eEAdRp0RS7NLJ4rUtboOlw_7o/s1600/20250527_102013.jpg" 
+         alt="Shayari 1" onclick="openModal(this.src)">
+    <div class="views">
+      <span>10K Views</span>
+      <button class="share-btn" onclick="shareOnWhatsApp('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNYlaZKQi6MyTkXHG5PpRxdHYRRP-vTq_4s9T-Zj9hKIMzw_aeRQupuKqtsPxJHxayhgwOf8oLYhYDiDR-Y3GSW3Ae69PHEe9KYV3BulKMDiJQ87ohMcsRHkKkSo29XVf4Nu5f-xJp1VRUMx4fMmUPya_nTmxAYuKAR9eEAdRp0RS7NLJ4rUtboOlw_7o/s1600/20250527_102013.jpg')">Share</button>
+    </div>
+  </div>
+  
+  
+  <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlqIfRgM4UISaFvWHCHH-BL3mxN711HFrvRscuHM1hQKcT82DI4i7hmU4YX_s12xKfKXxWniTpsXrmHsPw0QjIdST-WOFvAf0ojuuou2kpLR0WzYnGpFJ3BHFS8ZTosTGSfmobd9PSIeIJZzhyzgY729ojnEY5-B8rE_tR-_dPzt13D6cWNOeafrI5py8/s1600/20250513_232536.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>1000 Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlqIfRgM4UISaFvWHCHH-BL3mxN711HFrvRscuHM1hQKcT82DI4i7hmU4YX_s12xKfKXxWniTpsXrmHsPw0QjIdST-WOFvAf0ojuuou2kpLR0WzYnGpFJ3BHFS8ZTosTGSfmobd9PSIeIJZzhyzgY729ojnEY5-B8rE_tR-_dPzt13D6cWNOeafrI5py8/s1600/20250513_232536.jpg')">Share</button>
+  </div>
+</div>
+  
+  <!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhX4faFT3rmeu3W23UVbeG91pwit0e-1JjJq3ffceRiseC8P5L-StTjYvpJc8V09_a0Tw6ASXF3Angm3PHQjowCk32XlrixyX4Y_1uSTOiG7gtiB5_896T8bGz68JwbsBTiJWb5xGx7BylY56aPnGyZIUJBgDmIhF0EfHLeITvAKdIathJD9sr9QmdRpKE/s1600/20250513_233816.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>50k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY8y4hK6LmeDlQs4a2AbPSoV_iw5xS4xXPwSsyoqxp7VxaujOa0PPy77tDKEjd999Qccn-MaEmZGnC5tuzao_s0uw_WaHt4JOvTb5-5ezVCdErQ7jUneWhNEIPcyKJBsJxHCy9lAUbEMIwNCo_AHqEysUBQphx8mqFjbAXxirWXmBx9rUdXDc40fM-G3g/s1600/20250513_232925.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>600 Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY8y4hK6LmeDlQs4a2AbPSoV_iw5xS4xXPwSsyoqxp7VxaujOa0PPy77tDKEjd999Qccn-MaEmZGnC5tuzao_s0uw_WaHt4JOvTb5-5ezVCdErQ7jUneWhNEIPcyKJBsJxHCy9lAUbEMIwNCo_AHqEysUBQphx8mqFjbAXxirWXmBx9rUdXDc40fM-G3g/s1600/20250513_232925.jpg')">Share</button>
+  </div>
+</div>
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDwM3fqgsPd7lfqLd41hxitENKUwpahjcXZLGuXxlkWTf7Vm66KF4RiVRXd4g4UxmOSaaO_YQeNO5spP8KdOw1rveTcdUU-NUn-QOyhooI2IFy9x2n0uap8M8n49A0e7CvCSWqGq1HboK1izAUJ9MAQDIDSDReyoEUz6ViQK-CtPuilEXOu37adZkQuiM/s1600/20250513_222117.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>700 Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDwM3fqgsPd7lfqLd41hxitENKUwpahjcXZLGuXxlkWTf7Vm66KF4RiVRXd4g4UxmOSaaO_YQeNO5spP8KdOw1rveTcdUU-NUn-QOyhooI2IFy9x2n0uap8M8n49A0e7CvCSWqGq1HboK1izAUJ9MAQDIDSDReyoEUz6ViQK-CtPuilEXOu37adZkQuiM/s1600/20250513_222117.jpg')">Share</button>
+  </div>
+</div>
+
+<!-- Shayari card 3 -->
+<div class="shayari-card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhX4faFT3rmeu3W23UVbeG91pwit0e-1JjJq3ffceRiseC8P5L-StTjYvpJc8V09_a0Tw6ASXF3Angm3PHQjowCk32XlrixyX4Y_1uSTOiG7gtiB5_896T8bGz68JwbsBTiJWb5xGx7BylY56aPnGyZIUJBgDmIhF0EfHLeITvAKdIathJD9sr9QmdRpKE/s1600/20250513_233816.jpg" alt="Shayari 3" onclick="openModal(this.src)" style="cursor:pointer;">
+  <div class="views">
+    <span>50k Views</span>
+    <button class="share-btn" onclick="shareOnWhatsApp('https://i.ibb.co/8gd9TCZ/bg3.jpg')">Share</button>
+  </div>
+</div>
+
+
+
+
+  <div class="footer">
+    © 2025 MS POST - All Rights Reserved
+  </div>
+
+  <div class="modal" id="modal">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <img id="modal-img" src="" alt="Full View" />
+    <button onclick="closeModal()">Close</button>
+  </div>
+
+  <script>
+    // Date & Time
+    function updateDateTime() {
+      const now = new Date();
+      const options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' };
+      document.getElementById('datetime').innerText = now.toLocaleDateString('en-US', options);
+    }
+    setInterval(updateDateTime, 1000);
+    updateDateTime();
+
+    // Modal Image
+    function openModal(src) {
+      document.getElementById("modal").style.display = "flex";
+      document.getElementById("modal-img").src = src;
+    }
+
+    function closeModal() {
+      document.getElementById("modal").style.display = "none";
+    }
+
+    // Share Function
+    function shareShayari() {
+      if (navigator.share) {
+        navigator.share({
+          title: 'MS POST SHAYARI',
+          text: 'Check out this beautiful Shayari!',
+          url: window.location.href
+        });
+      } else {
+        alert('Sharing not supported on this browser.');
+      }
+    }
+  </script>
+</body>
+</html>
